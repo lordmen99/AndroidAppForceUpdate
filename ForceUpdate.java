@@ -18,7 +18,7 @@ import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 
-public class ForceUpdate extends Dialog {
+public class ForceUpdate {
 
     private Context context;
     private double versionName= Double.valueOf(BuildConfig.VERSION_NAME);
@@ -29,21 +29,17 @@ public class ForceUpdate extends Dialog {
     private String messageText = "An Update is Available With New Features";
 
     public ForceUpdate(Context context){
-        super(context);
         this.context = context;
     }
 
-    @Override
     public void setCancelable(boolean cancelable) {
         this.cancelable = cancelable;
     }
 
-    @Override
     public void setCanceledOnTouchOutside(boolean cancelableTouchOutSide ) {
         this.cancelableTouchOutSide = cancelableTouchOutSide;
     }
 
-    @Override
     public void setTitle(@Nullable CharSequence title) {
         this.titleText = title;
     }
