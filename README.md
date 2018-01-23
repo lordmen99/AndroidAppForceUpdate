@@ -2,6 +2,7 @@
 This project shows a dialog to user whenever there is an update available on the play store.
 
 Copy **ForceUpdate.java** file to your java files folder.
+
 Copy to **update_dialog.xml** file to layout folder.
 
 Add JSOUP Library
