@@ -38,3 +38,7 @@ Set custom title for the Update Dialog.
 
 Set Custom Message to show to the user.
 
+Sample Screenshot.
+
+![AndroidAppForceUpdate](https://github.com/SamaGyani/AndroidAppForceUpdate/blob/master/sample.jpg)
+
