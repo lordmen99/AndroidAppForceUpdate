@@ -50,6 +50,10 @@ public class ForceUpdate {
 
     public void build(){
 
+        if (!isConnectivityOk()){
+            return;
+        }
+        
         LoadUrl loadUrl = new LoadUrl();
         loadUrl.execute();
     }
@@ -132,6 +136,18 @@ public class ForceUpdate {
                 updateDialog.dismiss();
             }
         });
-
     }
+    
+     private boolean isConnectivityOk() {
+        try {
+            NetworkInfo activeNetwork = ((ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
+            if (activeNetwork == null || (activeNetwork.getType() != 1 && activeNetwork.getType() != 0)) {
+                return false;
+            }
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+    
 }
