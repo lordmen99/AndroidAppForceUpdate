@@ -1,4 +1,3 @@
-package com.studyapps.jsoup;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
