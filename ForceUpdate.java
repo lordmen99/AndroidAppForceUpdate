@@ -61,7 +61,7 @@ public class ForceUpdate {
         protected Void doInBackground(Void... voids) {
 
             try {
-                String url1 = "https://play.google.com/store/apps/details?id=com.studyapps.easystorysaver";
+                String url1 = "https://play.google.com/store/apps/details?id="+context.getPackageName();
                 Document doc = Jsoup.connect(url1)
                         .userAgent("Mozilla/4.0")
                         .referrer("https://www.google.com")
