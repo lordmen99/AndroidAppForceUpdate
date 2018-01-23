@@ -1,7 +1,7 @@
 # AndroidAppForceUpdate
 This project shows a dialog to user whenever there is an update available on the play store.
 
-**Note: Version Name shoudl be incremented everytime an app update is pushed to the play**
+**Note: Version Name should be incremented everytime an app update is pushed to the play store**
 
 Copy **ForceUpdate.java** file to your java files folder.
 
