@@ -9,6 +9,10 @@ Add JSOUP Library
 
 ```implementation 'org.jsoup:jsoup:1.10.2'```
 
+Add Internet Permission.
+
+```<uses-permission android:name="android.permission.INTERNET"/>```
+
 Initiate **ForceUpate** class in your **MainActivity**
 
 ```
