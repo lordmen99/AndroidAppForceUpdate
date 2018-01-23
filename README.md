@@ -15,6 +15,8 @@ Add Internet Permission.
 
 ```<uses-permission android:name="android.permission.INTERNET"/>```
 
+``` <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />```
+
 Initiate **ForceUpate** class in your **MainActivity**
 
 ```
