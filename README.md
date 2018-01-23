@@ -40,5 +40,5 @@ Set Custom Message to show to the user.
 
 Sample Screenshot.
 
-![AndroidAppForceUpdate](https://github.com/SamaGyani/AndroidAppForceUpdate/blob/master/sample.jpg)
+![AndroidAppForceUpdate](https://github.com/SamaGyani/AndroidAppForceUpdate/blob/master/sample.png)
 
